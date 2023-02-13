@@ -1,0 +1,36 @@
+.portoprojek{
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.portoprojek img{
+    display: flex;
+    width: 700px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 8px solid gold;
+    border-radius: 5em;
+    object-fit: cover;
+}
+
+.portoprojek img:hover{
+    transform: scale(1.1);
+}
+
+.portoprojek p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    color: gray;
+    background-color: gold;
+    border-radius: 1em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+
+}
+

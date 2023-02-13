@@ -1,0 +1,206 @@
+body {
+    background-color: gray;
+    font-family: 'Monsterrat',sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+    background-image: url("vackground-com-up8ooQ1Pm2s-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.chosen{
+    color: yellow;
+}
+
+a{
+    font-weight: bold;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+} 
+
+.namas{
+    color: white;
+    margin: auto;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 1em;
+    /* padding-bottom: 0.; */
+    padding-left: 2em;
+    padding-right: 2em;
+    align-items: center;
+    /* background-color: black; */
+}
+
+
+.navbar .nav{
+    font-weight: bolder;
+    color: gold;
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+}
+
+.navbar a:hover{
+    color: gold;
+    transform: scale(2);
+}
+
+.homepeg{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    font-size: 100px;
+    color: yellow;
+    animation: animhome 1.5s;
+}
+
+
+
+
+footer p{
+    text-align: center;
+    font-size: 1em;
+}
+
+.formcontact{
+    width: 60%;
+    margin: auto;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid gold;
+    /* gap: 0.5ems; */
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1em;
+    margin-bottom: 3em;
+}
+
+.formcontact .formtop{
+    color: gray;
+    background-color: gold;
+    /* width: 20%; */
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3em 3em 3em 3em;
+}
+
+form{
+    margin-top: 1em;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+input, textarea{
+    background-color: white;
+    border: none;
+    border-radius: 0.5em;
+    padding: 1em 0.5em;
+    color: gold;
+    font-family: inherit;
+    resize: none;
+}
+
+button{
+    background-color: gold;
+    color: white;
+    width: 8em;
+    height: 3em;
+    border-radius: 0.5 em;
+    font-weight: bolder;
+    border-color: gold;
+}
+
+button:hover{
+    color: darkblue;
+    transform: scale(1.2);
+}
+
+label{
+    font-weight: bold;
+    color: gold;
+}
+
+.choose{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+    font-size: 25px;
+    
+}
+
+.choose .abot{
+    background-color: yellow;
+    color: gray;
+    border-radius: 1em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border: 10px white;
+}
+
+.choose .abot:hover{
+    color: darkblue;
+    transform: scale(1.2);
+}
+
+.choose .kontak{
+    background-color: yellow;
+    color: gray;
+    border-radius: 1em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border: 10px white;
+}
+
+.choose .kontak:hover{
+    color: darkblue;
+    transform: scale(1.2);
+}
+
+.projek{
+    text-align: center;
+    color: gray;
+    padding-top: 3em;
+    font-size: 50px;
+    height: 50%;
+    border-radius: 2em;
+    background-color: yellow;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+
+
+
+@keyframes animhome {
+    0%{
+        size: 0%;
+        color: gray;
+    }
+    50%{
+        size: 50%;
+    }
+    100%{
+        size:100%;
+    }
+}
